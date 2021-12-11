@@ -22,7 +22,8 @@ router.post("/Arts/update", async function (req, res) {
   const artwork = req.body;
   await myDB.updateArtwork(artwork);
   console.log("artworks update", artwork);
-  res.render("artworkDetail", { a: artwork.artworkID });
+  const a = await myDB.getArtDetails(artwork.artworkID);
+  res.render("artworkDetail", { a: a });
 });
 
 /* POST create Arts. */

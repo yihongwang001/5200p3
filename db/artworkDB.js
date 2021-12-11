@@ -22,7 +22,7 @@ async function getArts() {
   let rclient;
   try {
     rclient = await getRConnection();
-    const tweetIds = await rclient.lRange("artwork", 0, 9);
+    const tweetIds = await rclient.lRange("artwork", 0, 20);
     const tweets = [];
     for (let tId of tweetIds) {
       const tweet = await getArt(tId);
@@ -57,6 +57,7 @@ async function createArtwork(a) {
       ["movement"]: a.movementName,
       ["status"]: a.status,
       ["artworkID"]: a.artworkID,
+      ["artistID"]: a.artistID,
     });
     await rclient.rPush("artwork", key);
   } finally {
@@ -82,11 +83,13 @@ async function updateArtwork(a) {
     rclient = await getRConnection();
     const key = `artwork:${a.artworkID}`;
     await rclient.hSet(key, {
+      ["artistID"]: a.artistID,
       ["name"]: a.name,
       ["year"]: a.year,
       ["movement"]: a.movementName,
       ["status"]: a.status,
       ["artworkID"]: a.artworkID,
+      ["artistID"]: a.artistID,
     });
   } finally {
     rclient.quit();

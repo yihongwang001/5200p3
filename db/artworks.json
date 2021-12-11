@@ -1,0 +1,141 @@
+[{
+  "_id": {
+    "$oid": "619c708275beef6c63ee511a"
+  },
+  "artistID": "619c8d4707de6fc12778c3d1",
+  "artworkID": 2207,
+  "name": "The Scream",
+  "year": 1893,
+  "movementName": "Expressionism",
+  "status": "Active"
+},{
+  "_id": {
+    "$oid": "619c708275beef6c63ee5115"
+  },
+  "artistID": "619c8f1907de6fc12778c3d7",
+  "artworkID": 2202,
+  "name": "Cafe Terrace At Night",
+  "year": 1888,
+  "status": "Active",
+  "movementName": "Post-Impressionism"
+},{
+  "_id": {
+    "$oid": "619c708275beef6c63ee5116"
+  },
+  "artistID": "619c8f1907de6fc12778c3d7",
+  "artworkID": 2203,
+  "name": "Vase With 12 Sunflowers",
+  "year": 1889,
+  "status": "Inactive",
+  "movementName": "Post-Impressionism"
+},{
+  "_id": {
+    "$oid": "619c708275beef6c63ee5117"
+  },
+  "artistID": "619c8eb607de6fc12778c3d5",
+  "artworkID": 2204,
+  "name": "Mona Lisa",
+  "year": 1503,
+  "status": "Active",
+  "movementName": "Renaissance"
+},{
+  "_id": {
+    "$oid": "619c708275beef6c63ee511d"
+  },
+  "artistID": "619c8e1b07de6fc12778c3d3",
+  "artworkID": 2210,
+  "name": "The Gleaners",
+  "year": 1857,
+  "status": "Inactive",
+  "movementName": "Realism"
+},{
+  "_id": {
+    "$oid": "619c708275beef6c63ee5119"
+  },
+  "artistID": "619c8ceb07de6fc12778c3d0",
+  "artworkID": 2206,
+  "name": "Water Lilies",
+  "year": 1906,
+  "status": "Inactive",
+  "movementName": "Impressionism"
+},{
+  "_id": {
+    "$oid": "619c708275beef6c63ee511e"
+  },
+  "artistID": "619c8dc907de6fc12778c3d2",
+  "artworkID": 2211,
+  "name": "In The Rain",
+  "year": 1912,
+  "status": "In Maintenance",
+  "movementName": "Cubism"
+},{
+  "_id": {
+    "$oid": "619c708275beef6c63ee5118"
+  },
+  "artistID": "619c8ceb07de6fc12778c3d0",
+  "artworkID": 2205,
+  "name": "Impression, Sunrise",
+  "year": 1872,
+  "status": "Active",
+  "movementName": "Impressionism"
+},{
+  "_id": {
+    "$oid": "619c708275beef6c63ee511f"
+  },
+  "artistID": "619c8dc907de6fc12778c3d2",
+  "artworkID": 2212,
+  "name": "Dead Deer",
+  "year": 1913,
+  "status": "Active",
+  "movementName": "Expressionism"
+},{
+  "_id": {
+    "$oid": "619c708275beef6c63ee5121"
+  },
+  "artistID": "619c8bc307de6fc12778c3ce",
+  "artworkID": 2214,
+  "name": "Fishing Boats At Capri",
+  "year": 1857,
+  "status": "Active",
+  "movementName": "Romanticism"
+},{
+  "_id": {
+    "$oid": "619da0d247ba89d1f20c359e"
+  },
+  "artistID": "12",
+  "artworkID": 14,
+  "name": "12",
+  "year": 12,
+  "status": "11111111",
+  "movementName": "21"
+},{
+  "_id": {
+    "$oid": "619c708275beef6c63ee511c"
+  },
+  "artistID": "619c8ee407de6fc12778c3d6",
+  "artworkID": 2209,
+  "name": "The Snake Charmer",
+  "year": 1879,
+  "status": "Active",
+  "movementName": "Orientalism"
+},{
+  "_id": {
+    "$oid": "619c708275beef6c63ee5120"
+  },
+  "artistID": "619c8bc307de6fc12778c3ce",
+  "artworkID": 2213,
+  "name": "The Golden Gate",
+  "year": 1900,
+  "status": "Active",
+  "movementName": "Luminism"
+},{
+  "_id": {
+    "$oid": "619c708275beef6c63ee511b"
+  },
+  "artistID": "619c8e8007de6fc12778c3d4",
+  "artworkID": 2208,
+  "name": "The Girl With A Pearl Earring",
+  "year": 1665,
+  "status": "In Maintenance",
+  "movementName": "Baroque"
+}]

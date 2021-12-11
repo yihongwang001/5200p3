@@ -31,13 +31,19 @@
             <div class="col-md-6 col-sm-8">
               <div class="card">
   <div class="card-body">
+    <p class="card-text">
+     ArtistID:
+    <%= f.artistID %></p>
    <p class="card-text">
      Artwork Name:
-    <%= f.name %>
+    <%= f.name %></p>
+    <p class="card-text">
     Production Year:
-   <%= f.year %>
+   <%= f.year %></p>
+   <p class="card-text">
    Movement:
-   <%= f.movement %>
+   <%= f.movement %></p>
+   <p class="card-text">
    Status:
    <%= f.status %></p>
    <a class="btn btn-success" href="/Arts/<%= f.artworkID %>">Update</a>
@@ -58,9 +64,18 @@
 
         <div class="col-4">
           <h2>Add Artwork</h2>
-
+<p>(check Artists page to find or create ArtistID)</p>
           <form action="/Arts/create" method="POST">
-          
+          <div>
+              <label class="form-label"
+                >ArtistID:
+                <input
+                  required="true"
+                  name="artistID"
+                  type="number"
+                  class="form-control"
+              /></label>
+            </div>
             <div>
               <label class="form-label"
                 >ArtworkID:
