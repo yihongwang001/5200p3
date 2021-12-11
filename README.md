@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-### instuctions to import database and run application
+## instuctions to import database and run application
 
 1. connect to your mongodb with localhost:27017
 
@@ -28,16 +28,20 @@
 
 7. check localhost:3000
 
-### Description of the requirements of the problem and list of business rules and possible nouns and actions
+## Problem requirements and the conceptual model in UML
 
 https://github.com/lilning/cs5200-project-1/blob/main/Project%20Part%201/Business%20Requirements.pdf
 
-### Conceptual model in UML
+## Functionalities that you selected to be used as an in-memory key-value storage
 
-![Image of UML](https://github.com/lilning/cs5200-project-1/blob/main/Project%20Part%201/Project1%20-%20ERD.png?raw=true)
+### artwork part:
 
-### describe the functionalities that you selected to be used as an in-memory key-value storage
+artworkID, artistID, name, year, movement, status
 
-![Image of ERD](https://github.com/lilning/cs5200-project-1/blob/main/Project%20Part%201/Project1%20-%20ERD.png?raw=true)
+## Describe the functionalities that you selected to be used as an in-memory key-value storage
 
-### Describe the Redis data structures that you are going to use to implement the functionalities you described in the previous point.
+### artwork part:
+
+1. store data in sets in the form: key:{artwork:artworkID}, value:{artworkID, artistID, name, year, movement, status}
+
+2. store artworkIDs in a list in the form: key:{artwork}, value:{artwork:artworkID}
