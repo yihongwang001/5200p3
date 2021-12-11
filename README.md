@@ -28,9 +28,13 @@
 
 7. check localhost:3000
 
-## Problem requirements and the conceptual model in UML
+## Problem requirements
 
-https://github.com/lilning/cs5200-project-1/blob/main/Project%20Part%201/Business%20Requirements.pdf
+https://github.com/yihongwang001/5200p3/blob/main/tasks1-2/Business%20Requirements.pdf
+
+## conceptual model in UML
+
+[!image](https://github.com/yihongwang001/5200p3/blob/main/tasks1-2/UML.png?raw=true)
 
 ## Functionalities that you selected to be used as an in-memory key-value storage
 
