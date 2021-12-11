@@ -34,7 +34,7 @@ https://github.com/yihongwang001/5200p3/blob/main/tasks1-2/Business%20Requiremen
 
 ## conceptual model in UML
 
-[!image](https://github.com/yihongwang001/5200p3/blob/main/tasks1-2/UML.png?raw=true)
+![image](https://github.com/yihongwang001/5200p3/blob/main/tasks1-2/UML.png?raw=true)
 
 ## Functionalities that you selected to be used as an in-memory key-value storage
 
