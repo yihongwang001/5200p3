@@ -50,9 +50,9 @@ artworkID, artistID, name, year, movement, status
 
 ### Artwork part:
 
-1. store data in sets in the form: key:{artwork:artworkID}, value:{artworkID, artistID, name, year, movement, status}
+1. Used hash to store each artwork detail information in this form: key:{artwork:artworkID}, value:{artworkID, artistID, name, year, movement, status}
 
-2. store artworkIDs in a list in the form: key:{artwork}, value:{artwork:artworkID}
+2. Used list to store all the artworkIDs in this form: key:{artwork}, value:{artwork:artworkID}
 
 **Here are examples for redis key-value storage in artwork part：**
 
