@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-## instuctions to import database and run application
+## Instuctions to import database and run application
 
 1. connect to your mongodb with localhost:27017
 
@@ -32,19 +32,19 @@
 
 https://github.com/yihongwang001/5200p3/blob/main/tasks1-2/Business%20Requirements.pdf
 
-## conceptual model in UML
+## Conceptual model in UML
 
 ![image](https://github.com/yihongwang001/5200p3/blob/main/tasks1-2/UML.png?raw=true)
 
 ## Functionalities that you selected to be used as an in-memory key-value storage
 
-### artwork part:
+### Artwork part:
 
 artworkID, artistID, name, year, movement, status
 
 ## Describe the functionalities that you selected to be used as an in-memory key-value storage
 
-### artwork part:
+### Artwork part:
 
 1. store data in sets in the form: key:{artwork:artworkID}, value:{artworkID, artistID, name, year, movement, status}
 
