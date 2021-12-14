@@ -36,6 +36,10 @@ https://github.com/yihongwang001/5200p3/blob/main/tasks1-2/Business%20Requiremen
 
 ![image](https://github.com/yihongwang001/5200p3/blob/main/tasks1-2/UML.png?raw=true)
 
+## Collections in NoSQL database
+
+![image](https://github.com/yihongwang001/5200p3/blob/main/tasks1-2/Collections.png?raw=true)
+
 ## Functionalities that you selected to be used as an in-memory key-value storage
 
 ### Artwork part:
