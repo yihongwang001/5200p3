@@ -39,7 +39,7 @@ https://github.com/yihongwang001/5200p3/blob/main/tasks1-2/Business%20Requiremen
 ## Functionalities that you selected to be used as an in-memory key-value storage
 
 ### Artwork part:
-
+Showing the following information of artworks:
 artworkID, artistID, name, year, movement, status
 
 ## Describe the functionalities that you selected to be used as an in-memory key-value storage
