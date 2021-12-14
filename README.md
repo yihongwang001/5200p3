@@ -53,3 +53,5 @@ artworkID, artistID, name, year, movement, status
 1. store data in sets in the form: key:{artwork:artworkID}, value:{artworkID, artistID, name, year, movement, status}
 
 2. store artworkIDs in a list in the form: key:{artwork}, value:{artwork:artworkID}
+
+![image](https://github.com/yihongwang001/5200p3/blob/main/tasks1-2/RedisExampleArtwork.png?raw=true)
