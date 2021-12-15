@@ -20,7 +20,9 @@
 
 4. populate data in redis
 
-(artwork part): node loadingArtwork
+> run: node db/loadingArtwork.js
+
+> run: node db/loadingArtists.js
 
 5. run: npm install
 
@@ -46,6 +48,10 @@ https://github.com/yihongwang001/5200p3/blob/main/tasks1-2/Business%20Requiremen
 Showing, creating and updating the following information of artworks:
 artworkID, artistID, name, year, movement, status
 
+### Artwork part:
+Create, Read, Update, Delete Functionalities for the following information for artists. I want to display the following information in a list for users to easily access:
+artistID (cannot update), name, birth year, death year, nationality, region, description
+
 ## Describe the functionalities that you selected to be used as an in-memory key-value storage
 
 ### Artwork part:
@@ -57,3 +63,9 @@ artworkID, artistID, name, year, movement, status
 **Here are examples for redis key-value storage in artwork part：**
 
 ![image](https://github.com/yihongwang001/5200p3/blob/main/tasks1-2/RedisExampleArtwork.png?raw=true)
+
+### Artists part:
+
+1. Used the list data structure to store all artist names in the form: key:artists value:{artist:name}
+
+2. Used the hash data structure to store artist details by artist name in the form: key:{artist:name}, value:[{nationality:value}, {name:value}, {birthYear:value}, {deathYear:value}, {id:value}, {region:value}, {description:value}]
