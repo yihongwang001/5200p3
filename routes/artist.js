@@ -10,16 +10,18 @@ router.get("/artists", async function (req, res) {
   const artists = await myDB.getArtists();
 
   // render the _artist_ template with the artists attrib as the list of artists
-  res.render("artists", { artists: artists });
+  res.render("artists", { artists : artists });
 });
 
 /* GET artist details. */
-router.get("/artists/:artistID", async function (req, res) {
+router.get("/artists/:artistName", async function (req, res) {
   console.log("Got artist");
 
-  const artistID = req.params.artistID;
+  const artistName = req.params.artistName;
 
-  const artist = await myDB.getArtistByID(artistID);
+  console.log(artistName);
+
+  const artist = await myDB.getArtistByName(artistName);
 
   res.render("artistDetails", { artist: artist });
 });
@@ -28,7 +30,6 @@ router.get("/artists/:artistID", async function (req, res) {
 router.post("/artists/update", async function (req, res) {
   console.log("Update artist.");
 
-  //const fireID = req.params.fireID;
   const updateInfo = req.body;
 
   console.log("gotArtist details", updateInfo);
@@ -65,7 +66,7 @@ router.post("/createArtist", async function (req, res) {
 router.post("/artists/delete", async function (req, res) {
   console.log("Got post delete artist");
 
-  const artist = req.body;
+  const artist = req.body.name;
 
   console.log("got delete artist", artist);
 
